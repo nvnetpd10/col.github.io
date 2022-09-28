@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta  name="viewport" content="with=device-width, initial-sacle=1.0" charset="utf-8"> <!-- IDEA: to make our website reponse -->
+    <title>University website</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="E:\2nd year web project\complete collage website\IMAGES">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,900;1,900&family=Roboto:ital,wght@1,100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.2/css/fontawesome.min.css">
+    <script src="https://kit.fontawesome.com/6c1a213cde.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <section class = "subheader">
+      <nav>
+        <a href="index.html"><img src="E:\2nd year web project\complete collage website\IMAGES\logo.png"></a>
+        <div class="navlinks" id = "navL">
+          <i class="fa-solid fa-door-closed" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="course.html">COURSE</a></li>
+            <li><a href="blog.html">BLOG</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+          </ul>
+        </div>
+        <i class="fa-solid fa-person-digging"  onclick="showMenu()"></i>
+      </nav>
+   <h1>Contact us</h1>
+    </section>
+    <!-- IDEA: contact us -->
+<section class="location">
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3632.4592317283345!2d77.15869901426879!3d24.43484756820267!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x397aff3abbbad69f%3A0x9af2aa865b395399!2sJaypee%20University%20Of%20Engineering%20And%20Technology%2C%20Guna!5e0!3m2!1sen!2sin!4v1664280944577!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</section>
+<section class="contactus">
+  <div class="row">
+    <div class="contactc">
+      <div class="">
+        <i class="fa-duotone fa-house-user"></i>
+        <span><h5>xyz road , abc building</h5>
+          <p>Banglore , Karnataka, in</p></span>
+      </div>
+      <div class="">
+        <i class="fa-solid fa-phone"></i>
+        <span><h5>+1 90yy787567885</h5>
+          <p>9 ton 12 saturday in</p></span>
+      </div>
+      <div class="">
+        <i class="fa-duotone fa-envelope"></i>
+        <span><h5>ghsd fdhgfud fhuifhuwebewd </h5>
+          <p>jijhw ujhgedhd dhwuqeidjn  djhwegdiudh</p></span>
+      </div>
+      </div>
+      <div class="contactc">
+        <form class="" action="filehandler.php" method="post">
+          <input type="text"  name="name"placeholder="Enter your name " required>
+          <input type="email" name="email" placeholder="Enter your address " required>
+          <input type="text" name="subject" placeholder="Enter your subject " required>
+          <textarea name="name" rows="8" name="message"placeholder="Message" required></textarea>
+    <button type="submit" class="herobtn red ">Send Message</button>
+        </form>
+
+    </div>
+  </div>
+</section>
+<!-- IDEA: footer -->
+<section class="f">
+  <h4>About us</h4>
+  <p>jhdc fdsf djkf dfjkdsf rhfsd fjrhfsd fjds cwjhfds fjhsd csdjfhdsccbn bcsdjfsd csdjefsd f fjehfjwendfjweljfiweoc dfhufe <br>fewjfhuewfwe efheiufher frehfre frjhfrjkejfg efvne erfhnfrhf fiuoreff frejfhreiof 3jhrfriof erfhreiuof
+  hbffhuerfherjklfneruf9rfurnkuh hioh uhui  h h g ygu yg <br>g y uig  iu y  u iu h uig i  tyui  y 7 yyu g uipo h uy  u9y  pb uv6r b ur  r  t   tb  r nyb  bt v </p>
+  <div class="i">
+    <i class="fa-brands fa-facebook"></i>
+    <i class="fa-brands fa-twitter"></i>
+    <i class="fa-brands fa-linkdin"></i>
+    <i class="fa-brands fa-google"></i>
+    <i class="fa-brands fa-instagram"></i>
+  </div>
+  <p>Made with <i class="fa-solid fa-heart"></i> By easy tutorials</p>
+</section>
+    <!-- IDEA: javascript for toggle menu -->
+    <script type="text/javascript">
+      var navL = document.getElementById("navL");
+      function showMenu(){
+      navL.style.right = "0";
+      }
+      function hideMenu(){
+      navL.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>

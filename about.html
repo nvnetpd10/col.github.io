@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta  name="viewport" content="with=device-width, initial-sacle=1.0" charset="utf-8"> <!-- IDEA: to make our website reponse -->
+    <title>University website</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="E:\2nd year web project\complete collage website\IMAGES">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,900;1,900&family=Roboto:ital,wght@1,100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.2/css/fontawesome.min.css">
+    <script src="https://kit.fontawesome.com/6c1a213cde.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <section class = "subheader">
+      <nav>
+        <a href="index.html"><img src="E:\2nd year web project\complete collage website\IMAGES\logo.png"></a>
+        <div class="navlinks" id = "navL">
+          <i class="fa-solid fa-door-closed" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="course.html">COURSE</a></li>
+            <li><a href="blog.html">BLOG</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+          </ul>
+        </div>
+        <i class="fa-solid fa-person-digging"  onclick="showMenu()"></i>
+      </nav>
+   <h1>About us</h1>
+    </section>
+    <!-- IDEA: about us content -->
+    <section class="about">
+      <div class="row">
+        <div class="aboutc">
+          <h1>We are the world largest university</h1>
+          <p>“Poverty is hunger. Poverty is lack of shelter. Poverty is beplace to place and across time, and has been described in many ways.  Most often, poverty is a situation people want to escape. So poverty is a call to action -- for the poor and the wealthy alike -- a call to change the world so that many more may have enough to eat, adequate shelter, access to education and health, protection from violence, and a voice in what happens in their communities.”</p>
+<a href="" class="herobtn red "><b>EXPLORE NOW</b></a>
+
+        </div>
+        <div class="aboutc">
+          <img src="IMAGES/about.jpg" alt="">
+
+        </div>
+      </div>
+
+    </section>
+
+<!-- IDEA: footer -->
+<section class="f">
+  <h4>About us</h4>
+  <p>jhdc fdsf djkf dfjkdsf rhfsd fjrhfsd fjds cwjhfds fjhsd csdjfhdsccbn bcsdjfsd csdjefsd f fjehfjwendfjweljfiweoc dfhufe <br>fewjfhuewfwe efheiufher frehfre frjhfrjkejfg efvne erfhnfrhf fiuoreff frejfhreiof 3jhrfriof erfhreiuof
+  hbffhuerfherjklfneruf9rfurnkuh hioh uhui  h h g ygu yg <br>g y uig  iu y  u iu h uig i  tyui  y 7 yyu g uipo h uy  u9y  pb uv6r b ur  r  t   tb  r nyb  bt v </p>
+  <div class="i">
+    <i class="fa-brands fa-facebook"></i>
+    <i class="fa-brands fa-twitter"></i>
+    <i class="fa-brands fa-linkdin"></i>
+    <i class="fa-brands fa-google"></i>
+    <i class="fa-brands fa-instagram"></i>
+  </div>
+  <p>Made with <i class="fa-solid fa-heart"></i> By easy tutorials</p>
+</section>
+    <!-- IDEA: javascript for toggle menu -->
+    <script type="text/javascript">
+      var navL = document.getElementById("navL");
+      function showMenu(){
+      navL.style.right = "0";
+      }
+      function hideMenu(){
+      navL.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>
